@@ -1,0 +1,5 @@
+name: drudgery
+windows:
+  - name: drudgery
+    root: ~/projects
+    layout: even-horizontal

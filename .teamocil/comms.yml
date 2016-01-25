@@ -1,0 +1,7 @@
+name: comms
+windows:
+  - name: mutt
+    root: ~
+    layout: even-horizontal
+    panes:
+      - mutt

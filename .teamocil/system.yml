@@ -1,0 +1,7 @@
+name: system
+windows:
+  - name: htop
+    root: ~
+    layout: even-horizontal
+    panes:
+      - htop

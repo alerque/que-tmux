@@ -1,4 +1,10 @@
 *
 !/.gitignore.d
 !/.gitignore.d/que-tmux
+!/.teamocil
+!/.teamocil/comms.yml
+!/.teamocil/drudgery.yml
+!/.teamocil/quake.yml
+!/.teamocil/scratch.yml
+!/.teamocil/system.yml
 !/.tmux.conf
