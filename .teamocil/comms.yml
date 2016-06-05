@@ -5,3 +5,8 @@ windows:
     layout: even-horizontal
     panes:
       - mutt
+  - name: sync
+    root: ~
+    layout: even-horizontal
+    panes:
+      - while true; do offlineimap ; echo "Trip wire" ; sleep 60 ; done
