@@ -4,7 +4,7 @@ windows:
     root: ~
     layout: even-horizontal
     panes:
-      - mutt
+      - neomutt
   - name: sync
     root: ~
     layout: even-horizontal
