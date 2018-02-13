@@ -1,7 +1,2 @@
 name: quake
 windows:
-  - name: ssh-tunnel
-    root: ~/.ssh
-    layout: even-horizontal
-    panes:
-      - ssh -N -D 8080 basilisk.alerque.com

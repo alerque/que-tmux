@@ -10,3 +10,8 @@ windows:
     layout: even-horizontal
     panes:
       - while true; do offlineimap ; echo "Trip wire" ; sleep 60 ; done
+  - name: ssh-tunnel
+    root: ~/.ssh
+    layout: even-horizontal
+    panes:
+      - ssh -N -D 8080 basilisk.alerque.com
