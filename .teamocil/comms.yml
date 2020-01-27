@@ -1,15 +1,20 @@
 name: comms
 windows:
-  - name: mutt
+  # - name: mutt
+  #   root: ~
+  #   layout: even-horizontal
+  #   panes:
+  #     - neomutt
+  - name: weechat
     root: ~
     layout: even-horizontal
     panes:
-      - neomutt
-  - name: sync
-    root: ~
-    layout: even-horizontal
-    panes:
-      - while true; do offlineimap ; echo "Trip wire" ; sleep 60 ; done
+      - weechat
+  # - name: sync
+  #   root: ~
+  #   layout: even-horizontal
+  #   panes:
+  #     - while true; do offlineimap ; echo "Trip wire" ; sleep 60 ; done
   - name: ssh-tunnel
     root: ~/.ssh
     layout: even-horizontal
