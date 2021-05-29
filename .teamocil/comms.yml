@@ -20,3 +20,4 @@ windows:
     layout: even-horizontal
     panes:
       - ssh -N -D 8080 basilisk.alerque.com
+      - ssh arch.alerque.com 'while true; do date; sleep 5; done'
