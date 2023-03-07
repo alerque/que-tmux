@@ -1,7 +1,7 @@
 name: system
 windows:
-  - name: bpytop
+  - name: btop
     root: ~
     layout: even-horizontal
     panes:
-      - bpytop
+      - btop

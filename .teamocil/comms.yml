@@ -19,5 +19,5 @@ windows:
     root: ~/.ssh
     layout: even-horizontal
     panes:
-      - ssh -N -D 8080 basilisk.alerque.com
-      - ssh arch.alerque.com 'while true; do date; sleep 5; done'
+      - ssh -N -D 8080 anole.alerque.com
+      - ssh -M arch.alerque.com
